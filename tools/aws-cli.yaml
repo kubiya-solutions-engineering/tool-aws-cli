@@ -1,5 +1,4 @@
 tools:
-# https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html
   - name: aws_cli
     image: amazon/aws-cli
     description: "Runs AWS CLI commands - recieves the command to run as an argument"
