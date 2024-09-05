@@ -5,13 +5,13 @@ tools:
     description: "Runs AWS CLI commands - recieves the command to run as an argument"
     alias: aws
     content: |
-      aws {{.command}}
+      {{.command}}
     args:
       - name: command
         description: "The AWS CLI command to run (example: s3 ls)"
         required: true
-    env:
-      - "AWS_PROFILE"
+#    env:
+#      - "AWS_PROFILE"
 #    with_files:
 #      - source: /home/appuser/.aws/credentials
 #        destination: /root/.aws/credentials
