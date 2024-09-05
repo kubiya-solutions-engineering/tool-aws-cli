@@ -2,13 +2,13 @@ tools:
 # https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html
   - name: aws_cli
     image: amazon/aws-cli
-    description: Runs AWS CLI commands - recieves the command to run as an argument
+    description: "Runs AWS CLI commands - recieves the command to run as an argument"
     alias: aws
     content: |
       aws {{.command}}
     args:
       - name: command
-        description: 'The AWS CLI command to run (example: s3 ls)'
+        description: "The AWS CLI command to run (example: s3 ls)"
         required: true
     env:
       - "AWS_PROFILE"
