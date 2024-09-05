@@ -8,7 +8,7 @@ tools:
       aws {{.command}}
     args:
       - name: command
-        description: "The AWS CLI command to run (example: s3 ls)"
+        description: "The AWS CLI command to run (example: s3 ls). Do not add `aws` at the front."
         required: true
 #    env:
 #      - "AWS_PROFILE"
