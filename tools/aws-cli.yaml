@@ -5,7 +5,7 @@ tools:
     description: "Runs AWS CLI commands - recieves the command to run as an argument"
     alias: aws
     content: |
-      {{.command}}
+      aws {{.command}}
     args:
       - name: command
         description: "The AWS CLI command to run (example: s3 ls)"
