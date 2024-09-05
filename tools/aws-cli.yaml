@@ -12,9 +12,9 @@ tools:
         required: true
     env:
       - "AWS_PROFILE"
-    with_files:
-      - source: /home/appuser/.aws/credentials
-        destination: /root/.aws/credentials
+#    with_files:
+#      - source: /home/appuser/.aws/credentials
+#        destination: /root/.aws/credentials
 #    metadata:
 #      category: 
 #        - "AWS"
