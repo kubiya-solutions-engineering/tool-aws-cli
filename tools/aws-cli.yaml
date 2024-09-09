@@ -14,3 +14,6 @@ tools:
     with_files:
       - source: $HOME/.aws/credentials
         destination: /root/.aws/credentials
+      - source: $HOME/.aws/config
+        destination: /root/.aws/config
+
