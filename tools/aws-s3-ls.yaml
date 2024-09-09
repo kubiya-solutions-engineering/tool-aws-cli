@@ -1,3 +1,4 @@
+tools:
   - name: aws-s3-file-creds
     description: "List S3 buckets using AWS CLI"
     alias: "awss3listfile"
