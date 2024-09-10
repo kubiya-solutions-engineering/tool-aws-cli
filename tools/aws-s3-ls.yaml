@@ -18,5 +18,3 @@ tools:
       - name: AWS_PROFILE
         description: 'The aws profile to use'
         required: true
-    env:
-      - AWS_PROFILE
